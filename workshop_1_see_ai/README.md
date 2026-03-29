@@ -2,6 +2,8 @@
 
 > **Theme:** *"See the magic, understand the mechanism"*
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_1_see_ai/Workshop_1_GenAI_Fundamentals.ipynb)
+
 **Format:** Google Colab Notebook (runs in your browser — no local install needed)
 **Estimated Time:** ~90 minutes (self-paced)
 

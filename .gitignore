@@ -35,7 +35,6 @@ desktop.ini
 # Workshop-specific
 *.zip
 *.docx
-__pycache__/
 chroma_db/
 *.log
 

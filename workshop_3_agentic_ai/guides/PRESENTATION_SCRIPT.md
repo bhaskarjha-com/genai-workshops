@@ -25,13 +25,13 @@
 ## 🔧 PRE-WORKSHOP CHECKLIST (9:30 AM — Private, Before Going Live)
 
 ### Your Desktop Setup
-Open these windows BEFORE the Teams call:
+Open these windows BEFORE the video call:
 
 ```
 Window 1: VS Code with workshop_3 folder open
 Window 2: Terminal (already activated venv: . .venv/Scripts/activate)
 Window 3: Browser tab → https://aistudio.google.com (Gemini API dashboard — for showing students)
-Window 4: Browser tab → Teams meeting
+Window 4: Browser tab → video call
 ```
 
 ### Your Three Backends — Test ALL THREE at 9:30 AM
@@ -118,7 +118,7 @@ WORKSHOP_BACKEND=ollama python 01_multimodal_medical_ai.py
 
 > *"Good morning everyone! Welcome to Workshop 3 — the final workshop in our Generative AI series.*
 >
-> *I'm Bhaskar Jha from TCS. Quick show of hands in the chat — how many of you attended Workshop 1 or 2?"*
+> *I'm [Your Name]. Quick show of hands in the chat — how many of you attended Workshop 1 or 2?"*
 
 **[Pause 10 seconds for chat responses]**
 
@@ -531,9 +531,9 @@ python 05_safety_and_guardrails.py
 
 ### Resource Sharing (~1 min):
 
-> *"I'm dropping a STUDENT_RESOURCES.md file in the Teams chat right now. It has free learning paths, open datasets, career info, Indian AI companies, and all the tools we used today."*
+> *"I'm dropping a STUDENT_RESOURCES.md file in the class chat right now. It has free learning paths, open datasets, career info, Indian AI companies, and all the tools we used today."*
 
-**[Action: Share `STUDENT_RESOURCES.md` in Teams chat]**
+**[Action: Share `STUDENT_RESOURCES.md` in class chat]**
 
 ### Q&A (~3 min):
 
@@ -547,7 +547,7 @@ python 05_safety_and_guardrails.py
 | *"Can I run this on my laptop?"* | "Absolutely! Gemini API is free. Or install Ollama and run MedGemma 1.5 locally — it only needs 5GB VRAM." |
 | *"What GPU do you need for local?"* | "MedGemma 1.5 4B runs on any GPU with 6+ GB VRAM. An RTX 3060 or better works fine." |
 | *"Is this only for CS students?"* | "Healthcare/biotech students bring domain expertise — you know WHAT the AI should do. CS students know HOW. Both are needed." |
-| *"How do I get the code?"* | "I'll share the GitHub repo / files in the Teams chat." |
+| *"How do I get the code?"* | "I'll share the GitHub repo / files in the class chat." |
 | *"Can the agent handle multiple patients?"* | "This is a single-agent demo. Production systems use multi-agent architectures with supervisor agents." |
 | *"What's the difference between Gemini and Ollama versions?"* | "Gemini is cloud—faster, smarter. Ollama runs locally—private, no data leaves the hospital. Same code, same architecture, different deployment." |
 
@@ -563,9 +563,9 @@ python 05_safety_and_guardrails.py
 
 ## 📋 POST-WORKSHOP CHECKLIST
 
-- [ ] Share `STUDENT_RESOURCES.md` in Teams chat
-- [ ] Share workshop files (zip or GitHub link) in Teams chat
-- [ ] Save the Teams recording (if recorded)
+- [ ] Share `STUDENT_RESOURCES.md` in class chat
+- [ ] Share workshop files (zip or GitHub link) in class chat
+- [ ] Save the session recording (if recorded)
 - [ ] Clean up: delete any temp files
 - [ ] Update `.env` — rotate API key if you shared it on screen
 - [ ] Stop Ollama if you no longer need it: `ollama stop`
@@ -610,7 +610,7 @@ python 04_bias_and_fairness.py  # Module 4 is fully offline — guaranteed to wo
 | Tool calling returns unexpected results | Module 3 will fall back to demo trace automatically |
 
 ### If students can't see your screen:
-Switch to sharing "Window" instead of "Desktop" in Teams. Share the terminal window directly.
+Switch to sharing "Window" instead of "Desktop" with students. Share the terminal window directly.
 
 ### If you're running behind schedule:
 | Cut this... | To save... |

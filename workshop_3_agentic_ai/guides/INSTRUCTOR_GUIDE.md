@@ -199,7 +199,7 @@ Module 1 and Module 3 both use this for multimodal X-ray analysis.
 | Agentic AI Developer | ₹12–35 LPA | TCS, Infosys, Wipro AI labs |
 | AI Product Manager | ₹15–50 LPA | Practo, 1mg, HealthifyMe |
 
-Share `STUDENT_RESOURCES.md` in the Teams chat after the workshop.
+Share `guides/STUDENT_RESOURCES.md` with students after the workshop.
 
 ---
 
@@ -231,7 +231,7 @@ response = client.models.generate_content(model="gemini-2.5-flash", contents="..
 
 ## 📚 Resources to Share After Workshop
 
-→ Share `STUDENT_RESOURCES.md` in the Teams chat. It contains:
+→ Share `guides/STUDENT_RESOURCES.md` with students. It contains:
 - Free learning paths (Fast.ai, DeepLearning.AI, Hugging Face)
 - Open datasets (MIMIC-III, ChestX-ray14, PubMed)
 - Career information + Indian AI companies
@@ -264,7 +264,7 @@ Workshop 3: "Act Like AI Agents" (Production) ← YOU ARE HERE
 ## 📁 Files
 
 ```
-workshop_3/
+workshop_3_agentic_ai/
 ├── workshop_config.py              # ← Shared backend selector (Gemini/Ollama/Demo)
 ├── 01_multimodal_medical_ai.py      # Multimodal (image + text)
 ├── 02_medical_rag_frontier.py       # ChromaDB + sentence-transformers + LLM
@@ -272,9 +272,11 @@ workshop_3/
 ├── 04_bias_and_fairness.py          # sklearn + SHAP + AIF360
 ├── 05_safety_and_guardrails.py      # Guardrails + case studies + regs
 ├── sample_chest_xray.png            # Sample medical image for Modules 1 & 3
-├── .env                             # API key + WORKSHOP_BACKEND config
+├── .env.example                     # API key + WORKSHOP_BACKEND config template
 ├── requirements.txt                 # All dependencies
 ├── README.md                        # Quick-start guide
-├── STUDENT_RESOURCES.md             # Post-workshop handout
-└── INSTRUCTOR_GUIDE_v3.md           # ← This file
+└── guides/
+    ├── INSTRUCTOR_GUIDE.md          # ← This file
+    ├── PRESENTATION_SCRIPT.md       # Minute-by-minute delivery script
+    └── STUDENT_RESOURCES.md         # Post-workshop handout
 ```

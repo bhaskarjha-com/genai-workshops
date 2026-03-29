@@ -2,6 +2,8 @@
 
 > **Theme:** *"From consuming AI to building with it"*
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_2_create_ai/Workshop_2_Advanced_GenAI.ipynb)
+
 **Format:** Google Colab Notebook + optional local Jupyter
 **Estimated Time:** ~2 hours (self-paced)
 

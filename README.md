@@ -4,7 +4,9 @@
 > Multimodal vision, RAG, AI agents, bias detection, and safety guardrails.
 > Fully self-paced. Runs anywhere: cloud, local GPU, or fully offline.
 
-<!-- TODO: Add banner image -->
+[![Workshop 1 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_1_see_ai/Workshop_1_GenAI_Fundamentals.ipynb)
+[![Workshop 2 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_2_create_ai/Workshop_2_Advanced_GenAI.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ---
 
@@ -37,7 +39,7 @@ By completing this workshop series, you will be able to:
 Each workshop is **self-contained**. Clone the repo and pick any workshop:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/genai-workshops.git
+git clone https://github.com/bhaskarjha-com/genai-workshops.git
 cd genai-workshops
 
 # Workshop 1 or 2: Open notebook in Google Colab or Jupyter

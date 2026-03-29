@@ -1,6 +1,6 @@
 # 📚 Workshop 3 — Post-Workshop Resources
 
-**Agentic AI in Healthcare** | March 28, 2026  
+**Agentic AI in Healthcare**  
 *Share this with students after the workshop.*
 
 ---
@@ -112,7 +112,7 @@ pip install google-genai chromadb sentence-transformers shap aif360 python-doten
 
 # For local deployment (no cloud needed)
 # Install Ollama: https://ollama.com/download
-ollama pull dcarrascosa/medgemma-1.5-4b-it:Q8_0    # Medical multimodal model (vision + text + tool calling)
+ollama pull dcarrascosa/medgemma-1.5-4b-it:Q8_0    # Medical multimodal model (vision + text)
 
 # Switch between cloud and local:
 # Set WORKSHOP_BACKEND=gemini (or ollama, or demo) in .env
@@ -120,4 +120,4 @@ ollama pull dcarrascosa/medgemma-1.5-4b-it:Q8_0    # Medical multimodal model (v
 
 ---
 
-*Workshop by Mr. Bhaskar Jha (TCS) | Organized by BMESI & BMSA x IIIC, VIT*
+*Created by Bhaskar Jha | Originally delivered at VIT University*
