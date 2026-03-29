@@ -77,7 +77,6 @@ jupyter notebook Workshop_1_GenAI_Fundamentals.ipynb
 | "ModuleNotFoundError" | Re-run the `!pip install` cell at the top |
 | Cell doesn't run | Check Colab shows "Connected" (top right) |
 | Very slow generation | Click Runtime → Change runtime type → GPU |
-| Import error for `gradio_client` | This is for Workshop 2 — safe to ignore here |
 | "CUDA out of memory" | Use `device=-1` (CPU mode) — already set by default |
 
 ---
