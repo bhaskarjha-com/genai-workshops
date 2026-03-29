@@ -1,0 +1,21 @@
+# Workshop 3: Frontier Agentic AI in Healthcare — Dependencies
+# Install: pip install -r requirements.txt
+
+# Core LLM: New Google GenAI SDK (free tier at aistudio.google.com)
+google-genai>=1.0.0
+
+# Vector Database + Embeddings for RAG (Module 2)
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Explainability & Fairness (Module 4)
+shap>=0.42.0
+aif360>=0.6.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Local GPU deployment (optional — for Ollama backend)
+ollama>=0.4.0
+
+# Already in Colab / standard: sklearn, numpy, pandas, matplotlib

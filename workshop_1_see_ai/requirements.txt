@@ -1,0 +1,6 @@
+# Core dependencies for Workshop 1: GenAI Fundamentals
+# Runs on Google Colab (pre-installed) or local Python 3.10+
+
+transformers>=4.35.0
+accelerate>=0.24.0
+torch>=2.0.0

@@ -1,0 +1,19 @@
+# Core dependencies for Workshop 2: Advanced GenAI
+# Runs on Google Colab (most pre-installed) or local Python 3.10+
+
+# --- Text Generation (from Workshop 1) ---
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# --- Image Generation ---
+gradio_client>=1.0.0
+Pillow>=10.0.0
+
+# --- RAG Pipeline ---
+langchain>=0.1.0
+langchain-community>=0.0.10
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+
+# --- Local Models (optional — for Section 3 and Agent Guide) ---
+ollama>=0.4.0
