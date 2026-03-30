@@ -113,6 +113,7 @@ pip install google-genai chromadb sentence-transformers shap aif360 python-doten
 # For local deployment (no cloud needed)
 # Install Ollama: https://ollama.com/download
 ollama pull dcarrascosa/medgemma-1.5-4b-it:Q8_0    # Medical multimodal model (vision + text)
+ollama pull qwen3:8b                                 # Tool-calling model for agent orchestration
 
 # Switch between cloud and local:
 # Set WORKSHOP_BACKEND=gemini (or ollama, or demo) in .env

@@ -51,5 +51,5 @@ Curated resources to deepen your understanding after completing Workshop 1.
 
 ## ➡️ Continue Learning
 
-- **[Workshop 2: Create AI](../workshop_2_create_ai/)** — Build image generators, RAG pipelines, and run local models.
-- **[Workshop 3: Agentic AI](../workshop_3_agentic_ai/)** — Build autonomous AI agents for healthcare.
+- **[Workshop 2: Building with GenAI](../02_building_with_genai/)** — Image generation, RAG pipelines, mini AI agent, local models.
+- **[Workshop 3: Healthcare AI Agent](../03_healthcare_ai_agent/)** — Autonomous healthcare agent with vision, RAG, bias detection, safety.

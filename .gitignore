@@ -38,5 +38,5 @@ desktop.ini
 chroma_db/
 *.log
 
-# Data files (keep sample data tracked)
-# !sample_chest_xray.png
+# Data files
+# (sample_chest_xray.png is tracked intentionally)

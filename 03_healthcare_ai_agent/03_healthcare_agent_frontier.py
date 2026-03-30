@@ -433,12 +433,13 @@ def assign_patient_to_bed(patient_id: str, bed_id: str, reason: str) -> dict:
 def send_alert(message: str, urgency: str = "NORMAL", target_team: str = "ICU_TEAM", **kwargs) -> dict:
     """Send an alert notification to hospital staff. Use for notifying care teams
     about incoming patients, bed assignments, or emergencies."""
+    from datetime import datetime
     return {
         "sent": True,
         "urgency": urgency,
         "target": target_team,
         "message": message,
-        "timestamp": "2026-03-28T10:15:00+05:30",
+        "timestamp": datetime.now().isoformat(),
     }
 
 
@@ -599,29 +600,29 @@ if __name__ == "__main__":
     # ─── Show Agent Architecture ───
     print_section("Agent Architecture: LLM + Tools", "🏗️")
     print("""
-    ┌─────────────────────────────────────────────────┐
-    │           LLM Brain (Gemini or MedGemma)     │
-    │                                                  │
-    │  "I need to check beds, analyze the X-ray,      │
-    │   search treatment guidelines, then assign..."   │
-    │                                                  │
-    │  ┌──────────────────────────────────────────┐   │
-    │  │     Automatic Function Calling            │   │
-    │  │     (SDK handles the loop for us)          │   │
-    │  └──────────────────────────────────────────┘   │
-    └────────────────┬────────────────────────────────┘
-                     │ calls functions
-    ┌────────────────▼────────────────────────────────┐
-    │  🔧 TOOLS (Python functions)                     │
-    │                                                  │
-    │  check_bed_availability()   → Hospital DB        │
-    │  get_patient_info(id)       → Patient records    │
-    │  analyze_patient_xray(id)   → 🔬 MODULE 1 VISION │
-    │  search_medical_knowledge   → 📚 MODULE 2 RAG    │
-    │  assess_discharge_readiness → Discharge model    │
-    │  assign_patient_to_bed      → Bed management     │
-    │  send_alert                 → Staff notification  │
-    └─────────────────────────────────────────────────┘
+    ┌───────────────────────────────────────────────────┐
+    │           LLM Brain (Gemini or MedGemma)           │
+    │                                                    │
+    │  "I need to check beds, analyze the X-ray,         │
+    │   search treatment guidelines, then assign..."     │
+    │                                                    │
+    │  ┌──────────────────────────────────────────┐      │
+    │  │     Automatic Function Calling            │      │
+    │  │     (SDK handles the loop for us)          │      │
+    │  └──────────────────────────────────────────┘      │
+    └─────────────────────┬─────────────────────────────┘
+                          │ calls functions
+    ┌─────────────────────▼─────────────────────────────┐
+    │  🔧 TOOLS (Python functions)                       │
+    │                                                    │
+    │  check_bed_availability()   → Hospital DB          │
+    │  get_patient_info(id)       → Patient records      │
+    │  analyze_patient_xray(id)   → 🔬 MODULE 1 VISION   │
+    │  search_medical_knowledge   → 📚 MODULE 2 RAG      │
+    │  assess_discharge_readiness → Discharge model      │
+    │  assign_patient_to_bed      → Bed management       │
+    │  send_alert                 → Staff notification    │
+    └───────────────────────────────────────────────────┘
     """)
 
     # ─── Show Available Tools ───

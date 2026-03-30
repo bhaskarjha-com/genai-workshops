@@ -23,6 +23,7 @@ All notable changes to this workshop series will be documented in this file.
 - NEW: Local model Python demo (Ollama pattern + Colab AI)
 - NEW: Mini AI agent with 3 working tools (calculator, weather, RAG search)
 - NEW: Agent exercise — add your own tool
+- NEW: Running Local Models deep-dive notebook (quantization, streaming, hyperparameters)
 - Upgraded RAG to use Gemini (via google.colab.ai) with GPT-2 fallback
 - Removed phantom "Section 6: Healthcare AI" from table of contents
 

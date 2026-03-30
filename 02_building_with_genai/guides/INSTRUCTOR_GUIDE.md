@@ -1,6 +1,6 @@
 # 🎤 Workshop 2 — Instructor Guide
 
-> **Title:** "Create AI — Building GenAI Applications"
+> **Title:** "Building with GenAI"
 > **Duration:** ~2 hours
 > **Format:** Google Colab Notebook + optional local Jupyter for Ollama sections
 
@@ -16,9 +16,8 @@
 | 0:45–0:55 | Local Models | Ollama demo, why local matters |
 | 0:55–1:00 | Break | 5-minute buffer |
 | 1:00–1:25 | RAG Pipeline | Embeddings, FAISS, retrieval + generation |
-| 1:25–1:40 | Agent Architecture | Theory: brain, tools, memory, planning |
-| 1:40–1:50 | Healthcare Preview | Bridge to Workshop 3 |
-| 1:50–2:00 | Wrap-Up & Q&A | Resources, next steps |
+| 1:25–1:45 | Mini AI Agent | Build agent with 3 tools + exercise |
+| 1:45–1:55 | Wrap-Up & Q&A | Resources, next steps, bridge to Workshop 3 |
 
 ---
 
@@ -79,16 +78,19 @@ FLUX free tier has GPU quotas. If rate-limited:
 
 ---
 
-## 🤖 Agent Architecture (1:25–1:40)
+## 🤖 Mini AI Agent (1:25–1:45)
 
-**Theory section — no code cells in main notebook.**
+**Hands-on: build a working agent with 3 tools.**
 
 > "An LLM alone is like a brain in a jar. An Agent is a brain with eyes, hands, and a notebook."
 
-Walk through the agent diagram: Brain (LLM) + Tools + Memory + Planning
+1. Walk through the agent diagram: Brain (LLM) + Tools + Memory + Planning
+2. Build a mini agent with 3 tools: calculator, weather lookup, and RAG search
+3. Let students see the agent autonomously decide which tool to call
+4. **Exercise:** Students add their own custom tool to the agent
 
 **Bridge to Workshop 3:**
-> "In Workshop 3, you'll build an actual agent that autonomously calls hospital management tools."
+> "In Workshop 3, you'll build a REAL agent that autonomously calls 7 hospital management tools — including the multimodal vision and RAG pipeline we just built."
 
 ---
 

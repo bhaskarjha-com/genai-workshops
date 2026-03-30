@@ -12,11 +12,14 @@
 |------|---------|------------|
 | 0:00–0:10 | Welcome & Hook | Live demo of text generation |
 | 0:10–0:25 | AI Mindset | Concept explanation: GenAI, Transformers, Attention |
-| 0:25–0:40 | Setup | Everyone runs install cells together |
-| 0:40–1:05 | Text Generation | Hands-on: load GPT-2, generate, experiment |
-| 1:05–1:10 | Break | 5-minute buffer |
-| 1:10–1:20 | Temperature Lab | Compare creative vs conservative outputs |
-| 1:20–1:30 | Wrap-Up & Q&A | Review, resources, tease Workshop 2 |
+| 0:25–0:35 | Tokenization | See how AI reads text as sub-word tokens |
+| 0:35–0:40 | Setup | Everyone runs install cells together |
+| 0:40–1:00 | Text Generation | Hands-on: load GPT-2, generate, experiment |
+| 1:00–1:05 | Break | 5-minute buffer |
+| 1:05–1:15 | Temperature Lab | Compare creative vs conservative outputs |
+| 1:15–1:25 | Prompt Engineering | Vague vs specific vs expert role prompts |
+| 1:25–1:30 | Local vs Cloud | Compare GPT-2 with Gemini side-by-side |
+| 1:30–1:35 | Wrap-Up & Q&A | Review, resources, tease Workshop 2 |
 
 ---
 
@@ -55,7 +58,7 @@
 
 ---
 
-## 🛠️ Setup (0:25–0:40)
+## 🛠️ Setup (0:35–0:40)
 
 ⚠️ **CRITICAL: Everyone must complete this together**
 
@@ -86,7 +89,7 @@
 
 ---
 
-## 🎓 Wrap-Up (1:20–1:30)
+## 🎓 Wrap-Up (1:30–1:35)
 
 ### Tease Workshop 2:
 > "Next time we'll go deeper — image generation, local models, and building a RAG pipeline!"
@@ -103,7 +106,7 @@
 | Colab goes down | Share screen, demo from your computer |
 | API rate limited | Show pre-saved outputs as examples |
 | Running over time | Cut: temperature comparison → prompt comparison → bonus |
-| **Never cut** | First text generation, first image generation, Q&A |
+| **Never cut** | First text generation, tokenization demo, Q&A |
 
 ---
 

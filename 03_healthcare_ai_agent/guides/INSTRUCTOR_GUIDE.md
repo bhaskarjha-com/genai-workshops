@@ -1,4 +1,4 @@
-# 🎓 Workshop 3 Instructor Guide v3 — Frontier Agentic AI in Healthcare
+# 🎓 Workshop 3 Instructor Guide — Frontier Agentic AI in Healthcare
 
 ## Quick Reference
 
@@ -76,7 +76,7 @@ Module 1 and Module 3 both use this for multimodal X-ray analysis.
 
 > *"Good morning everyone! Welcome to Workshop 3 — Agentic AI in Healthcare.*
 >
-> *Quick recap: In Workshop 1, you SAW what GenAI can do — text generation, image generation, how transformers work. In Workshop 2, you BUILT things — local models with Ollama, RAG pipelines, medical summarization.*
+> *Quick recap: In Workshop 1, you SAW what GenAI can do — text generation, tokenization, how transformers work. In Workshop 2, you BUILT things — image generation, RAG pipelines, and a mini AI agent with tools.*
 >
 > *Today, we go to the frontier. We're building an AI AGENT — not a chatbot that answers questions, but a system that REASONS, ACTS, and makes autonomous decisions in a hospital ICU setting.*
 >
@@ -242,16 +242,16 @@ response = client.models.generate_content(model="gemini-2.5-flash", contents="..
 ## 🎓 Workshop Series Progression
 
 ```
-Workshop 1: "See AI" (Exploration)
+Workshop 1: "GenAI Fundamentals" (Exploration)
 ├── GenAI fundamentals, text & image generation
 └── Understanding transformers
 
-Workshop 2: "Create AI" (Engineering)
+Workshop 2: "Building with GenAI" (Engineering)
 ├── Local models (Ollama), professional project structure
-├── RAG pipelines, medical summarization
-└── Synthetic data generation
+├── RAG pipelines, mini AI agent
+└── Deep-dive notebooks (local models + agent programming)
 
-Workshop 3: "Act Like AI Agents" (Production) ← YOU ARE HERE
+Workshop 3: "Agentic AI in Healthcare" (Production) ← YOU ARE HERE
 ├── Gemini multimodal medical analysis  (the eyes)
 ├── Vector RAG with ChromaDB             (the memory)
 ├── ⭐ Gemini function calling agents    (the brain)
@@ -264,7 +264,7 @@ Workshop 3: "Act Like AI Agents" (Production) ← YOU ARE HERE
 ## 📁 Files
 
 ```
-workshop_3_agentic_ai/
+03_healthcare_ai_agent/
 ├── workshop_config.py              # ← Shared backend selector (Gemini/Ollama/Demo)
 ├── 01_multimodal_medical_ai.py      # Multimodal (image + text)
 ├── 02_medical_rag_frontier.py       # ChromaDB + sentence-transformers + LLM

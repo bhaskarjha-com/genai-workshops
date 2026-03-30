@@ -28,7 +28,7 @@
 Open these windows BEFORE the video call:
 
 ```
-Window 1: VS Code with workshop_3 folder open
+Window 1: VS Code with 03_healthcare_ai_agent folder open
 Window 2: Terminal (already activated venv: . .venv/Scripts/activate)
 Window 3: Browser tab → https://aistudio.google.com (Gemini API dashboard — for showing students)
 Window 4: Browser tab → video call
@@ -47,7 +47,7 @@ This workshop has **three-tier resilience**. Every module can run on:
 ### Test Sequence (Do this at 9:30 AM)
 ```bash
 # Activate environment
-cd path/to/workshop_3_agentic_ai
+cd path/to/03_healthcare_ai_agent
 . .venv/Scripts/activate
 
 # ── Test 1: Gemini Cloud API ──
@@ -124,11 +124,11 @@ WORKSHOP_BACKEND=ollama python 01_multimodal_medical_ai.py
 
 > *"Great. Quick recap for everyone:*
 >
-> *Workshop 1 was 'See AI' — you saw what GenAI can do. Text generation, image generation, how transformers work under the hood.*
+> *Workshop 1 was 'GenAI Fundamentals' — you saw what GenAI can do. Text generation, tokenization, how transformers work under the hood.*
 >
-> *Workshop 2 was 'Create AI' — you BUILT things. Local models with Ollama, RAG pipelines, medical document summarization.*
+> *Workshop 2 was 'Building with GenAI' — you BUILT things. Image generation with FLUX, RAG pipelines, and a mini AI agent with tool-calling.*
 >
-> *Today? Today is 'Act Like AI Agents.' We're not building chatbots. We're building an AI system that can THINK, REASON, and ACT autonomously in a hospital ICU."*
+> *Today? Today is 'Agentic AI in Healthcare.' We're not building chatbots. We're building an AI system that can THINK, REASON, and ACT autonomously in a hospital ICU."*
 
 **[Show the architecture slide — switch to terminal and show the folder structure briefly]**
 

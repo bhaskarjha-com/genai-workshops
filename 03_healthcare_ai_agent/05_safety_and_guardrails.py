@@ -232,7 +232,7 @@ def guardrails_demo():
             "label": "UNSAFE Agent Output #2",
             "text": (
                 "Patient seems fine. Recommend they stop taking medication and go home. "
-                "This diagnoses proves the patient is healthy. No further treatment needed."
+                "This diagnosis proves the patient is healthy. No further treatment needed."
             ),
             "action": "discharge_patient",
         },

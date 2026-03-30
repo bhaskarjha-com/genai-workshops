@@ -340,7 +340,7 @@ Provide a COMPREHENSIVE multimodal assessment:
        them alongside clinical context
 
     3. This is a TOOL our agent will use in Module 3 —
-       the agent will call "analyze_patient_multimodal" as one
+       the agent will call "analyze_patient_xray" as one
        of its available functions
 
     4. For production: use LOCAL models (Ollama/MedGemma) to keep

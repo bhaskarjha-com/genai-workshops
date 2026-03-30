@@ -50,4 +50,4 @@ Curated resources for the advanced topics covered in Workshop 2.
 
 ## ➡️ Continue Learning
 
-- **[Workshop 3: Agentic AI](../workshop_3_agentic_ai/)** — Build an autonomous healthcare AI agent.
+- **[Workshop 3: Healthcare AI Agent](../03_healthcare_ai_agent/)** — Autonomous healthcare agent with vision, RAG, bias detection, safety.
