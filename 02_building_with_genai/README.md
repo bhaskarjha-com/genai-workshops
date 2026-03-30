@@ -4,8 +4,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
 
-**Format:** Google Colab Notebook + optional Agent Programming Guide
-**Estimated Time:** ~2 hours (self-paced)
+**Format:** Google Colab Notebook + 2 bonus deep-dive notebooks
+**Estimated Time:** ~2 hours (self-paced) + bonus material
 
 ---
 
@@ -49,8 +49,9 @@ jupyter notebook Workshop_2_Advanced_GenAI.ipynb
 
 | File | Purpose |
 |------|---------|
-| `Workshop_2_Advanced_GenAI.ipynb` | 📓 The main workshop notebook — run this |
-| `Agent_Programming_Guide.ipynb` | 🤖 Deep-dive: build a complete ReAct agent with Ollama |
+| `Workshop_2_Advanced_GenAI.ipynb` | 📓 **The main workshop notebook — start here** |
+| `Running_Local_Models_Deep_Dive.ipynb` | 🖥️ Bonus: Ollama Python integration, quantization, streaming, hyperparameters |
+| `Agent_Programming_Guide.ipynb` | 🤖 Bonus: Build a complete ReAct agent with memory and self-reflection |
 | `requirements.txt` | Python dependencies (for local setup) |
 | `guides/INSTRUCTOR_GUIDE.md` | 👨‍🏫 Teaching guide with timing and troubleshooting |
 | `guides/RESOURCES.md` | 📚 Curated learning resources |
@@ -83,8 +84,14 @@ jupyter notebook Workshop_2_Advanced_GenAI.ipynb
 
 ## ➡️ What's Next?
 
-### Immediate: Agent Programming Guide
-Open `Agent_Programming_Guide.ipynb` for a deep-dive into building complete ReAct agents with Ollama.
+### Bonus Deep-Dives (do these before Workshop 3!)
+
+| Notebook | What You'll Learn | Requires |
+|----------|------------------|----------|
+| **Running_Local_Models_Deep_Dive.ipynb** | Quantization (Q4/Q8/FP16), Ollama Python API, streaming, REST API, advanced hyperparameter tuning | Ollama installed locally |
+| **Agent_Programming_Guide.ipynb** | Full ReAct agent from scratch, conversation memory, self-reflection, research assistant agent | Ollama installed locally |
+
+> 💡 These require Ollama running locally. If you don't have a GPU, read through the code — Workshop 3's Demo Mode will let you see agents in action without any setup.
 
 ### Next Workshop
 Continue to **[Workshop 3: Healthcare AI Agent](../03_healthcare_ai_agent/)** where you'll build an autonomous agent that analyzes X-rays, searches medical guidelines, and manages hospital resources.

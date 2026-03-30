@@ -130,6 +130,7 @@ genai-workshops/
 │   ├── README.md                Student guide
 │   ├── requirements.txt
 │   ├── Workshop_2_Advanced_GenAI.ipynb
+│   ├── Running_Local_Models_Deep_Dive.ipynb
 │   ├── Agent_Programming_Guide.ipynb
 │   └── guides/
 │       ├── INSTRUCTOR_GUIDE.md
