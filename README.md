@@ -7,6 +7,7 @@
 [![W1: GenAI Fundamentals](https://img.shields.io/badge/W1_Fundamentals-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/01_genai_fundamentals/Workshop_1_GenAI_Fundamentals.ipynb)
 [![W2: Building with GenAI](https://img.shields.io/badge/W2_Building-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
+[![YouTube Playlist](https://img.shields.io/badge/Watch_All-YouTube_Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL21zFmPhZSTTu9RRApGXeXFrpzfkoG4rV)
 
 ---
 
@@ -28,11 +29,11 @@ By completing this workshop series, you will be able to:
 
 ## 🗺️ Workshop Series
 
-| # | Workshop | What You'll Build | Format | Time |
-|:-:|---------|-------------------|--------|:----:|
-| 1 | **[GenAI Fundamentals](./01_genai_fundamentals/)** | Tokenizer, text generator, prompt lab, local-vs-cloud comparison | Colab Notebook | ~90 min |
-| 2 | **[Building with GenAI](./02_building_with_genai/)** | Image generator, RAG pipeline, mini AI agent with tools | Colab Notebook | ~2 hrs |
-| 3 | **[Healthcare AI Agent](./03_healthcare_ai_agent/)** | Autonomous healthcare agent with vision, RAG, bias detection, safety | Python Scripts | ~2 hrs |
+| # | Workshop | What You'll Build | Format | Time | Recording |
+|:-:|---------|-------------------|--------|:----:|:---------:|
+| 1 | **[GenAI Fundamentals](./01_genai_fundamentals/)** | Tokenizer, text generator, prompt lab, local-vs-cloud comparison | Colab Notebook | ~90 min | [▶️ Watch](https://youtu.be/fHLQ0h8192w) |
+| 2 | **[Building with GenAI](./02_building_with_genai/)** | Image generator, RAG pipeline, mini AI agent with tools | Colab Notebook | ~2 hrs | [▶️ Watch](https://youtu.be/B7iAAkHY404) |
+| 3 | **[Healthcare AI Agent](./03_healthcare_ai_agent/)** | Autonomous healthcare agent with vision, RAG, bias detection, safety | Python Scripts | ~2 hrs | [▶️ Watch](https://youtu.be/Y_h1iY392QE) |
 
 ---
 

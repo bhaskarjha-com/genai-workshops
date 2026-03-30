@@ -2,8 +2,11 @@
 
 > **Theme:** *"Build an autonomous AI agent that sees, remembers, thinks, and acts"*
 
+[![Watch Recording](https://img.shields.io/badge/Watch_Recording-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Y_h1iY392QE)
+
 **Format:** Python scripts (terminal-based, each module is self-contained)
 **Estimated Time:** ~2 hours (self-paced)
+**Recording:** [▶️ Full session on YouTube](https://youtu.be/Y_h1iY392QE) — watch the instructor walk through every module
 
 ---
 

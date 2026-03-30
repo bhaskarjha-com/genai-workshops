@@ -3,9 +3,11 @@
 > **Theme:** *"From consuming AI to building real applications"*
 
 [![Open In Colab](https://img.shields.io/badge/Workshop_2-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
+[![Watch Recording](https://img.shields.io/badge/Watch_Recording-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/B7iAAkHY404)
 
 **Format:** Google Colab Notebook + 2 bonus deep-dive notebooks
 **Estimated Time:** ~2 hours (self-paced) + bonus material
+**Recording:** [▶️ Full session on YouTube](https://youtu.be/B7iAAkHY404) — watch the instructor walk through every cell
 
 ---
 

@@ -3,9 +3,11 @@
 > **Theme:** *"Understand the magic behind Generative AI"*
 
 [![Open In Colab](https://img.shields.io/badge/Workshop_1-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/01_genai_fundamentals/Workshop_1_GenAI_Fundamentals.ipynb)
+[![Watch Recording](https://img.shields.io/badge/Watch_Recording-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fHLQ0h8192w)
 
 **Format:** Google Colab Notebook (runs in your browser — no local install needed)
 **Estimated Time:** ~90 minutes (self-paced)
+**Recording:** [▶️ Full session on YouTube](https://youtu.be/fHLQ0h8192w) — watch the instructor walk through every cell
 
 ---
 
