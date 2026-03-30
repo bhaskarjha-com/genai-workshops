@@ -4,9 +4,9 @@
 > Tokenization, prompt engineering, image generation, RAG, AI agents, bias detection, and safety guardrails.
 > Fully self-paced. Runs anywhere: cloud, local GPU, or fully offline.
 
-[![Workshop 1 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/01_genai_fundamentals/Workshop_1_GenAI_Fundamentals.ipynb)
-[![Workshop 2 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![W1: GenAI Fundamentals](https://img.shields.io/badge/W1_Fundamentals-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/01_genai_fundamentals/Workshop_1_GenAI_Fundamentals.ipynb)
+[![W2: Building with GenAI](https://img.shields.io/badge/W2_Building-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
 
 ---
 
