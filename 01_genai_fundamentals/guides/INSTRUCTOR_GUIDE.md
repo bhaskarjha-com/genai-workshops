@@ -1,6 +1,6 @@
 # 🎤 Workshop 1 — Instructor Guide
 
-> **Title:** "See AI — GenAI Fundamentals"
+> **Title:** "GenAI Fundamentals"
 > **Duration:** ~90 minutes
 > **Format:** Google Colab Notebook, delivered via screen share
 

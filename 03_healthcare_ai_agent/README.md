@@ -1,4 +1,4 @@
-# 🤖 Workshop 3: Agentic AI — Autonomous Healthcare Agents
+# 🏥 Workshop 3: Healthcare AI Agent
 
 > **Theme:** *"Build an autonomous AI agent that sees, remembers, thinks, and acts"*
 
@@ -22,7 +22,7 @@ By the end of this workshop, you will be able to:
 
 ## 📋 Prerequisites
 
-- ✅ Completed **[Workshop 1](../workshop_1_see_ai/)** and **[Workshop 2](../workshop_2_create_ai/)** (or equivalent)
+- ✅ Completed **[Workshop 1](../01_genai_fundamentals/)** and **[Workshop 2](../02_building_with_genai/)** (or equivalent)
 - ✅ Python 3.10+ installed locally
 - ✅ Basic understanding of LLMs, embeddings, and RAG
 - 🔧 **(Optional)** [Gemini API key](https://aistudio.google.com/apikey) (free) for cloud backend
@@ -147,7 +147,21 @@ This workshop uses **simulated medical scenarios** for educational purposes. The
 
 ---
 
+## 🔄 Quick Recap: What You Should Know
+
+If it's been a while since Workshops 1 & 2, here's a 60-second refresher:
+
+| Concept | Where You Learned It | Quick Reminder |
+|---------|---------------------|----------------|
+| **Tokens** | Workshop 1, Section 3 | AI reads text as sub-word pieces, not words |
+| **Transformers** | Workshop 1, Section 2 | Attention mechanism + parameters = modern AI |
+| **Prompt Engineering** | Workshop 1, Section 7 | Structured prompts → better AI output |
+| **RAG** | Workshop 2, Section 4 | Retrieve context → augment prompt → generate |
+| **AI Agents** | Workshop 2, Section 5 | Think → Act → Observe → Repeat (ReAct) |
+
+---
+
 ## ⬅️ Previous Workshops
 
-- **[Workshop 1: See AI](../workshop_1_see_ai/)** — GenAI fundamentals, Transformers, text generation
-- **[Workshop 2: Create AI](../workshop_2_create_ai/)** — Image generation, local models, RAG pipelines
+- **[Workshop 1: GenAI Fundamentals](../01_genai_fundamentals/)** — Transformers, tokenization, text generation, prompt engineering
+- **[Workshop 2: Building with GenAI](../02_building_with_genai/)** — Image generation, RAG pipelines, mini AI agent

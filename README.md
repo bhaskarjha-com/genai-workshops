@@ -1,11 +1,11 @@
 # 🧬 GenAI Workshops
 
 > **Hands-on Generative AI workshops — from fundamentals to autonomous agents.**
-> Multimodal vision, RAG, AI agents, bias detection, and safety guardrails.
+> Tokenization, prompt engineering, image generation, RAG, AI agents, bias detection, and safety guardrails.
 > Fully self-paced. Runs anywhere: cloud, local GPU, or fully offline.
 
-[![Workshop 1 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_1_see_ai/Workshop_1_GenAI_Fundamentals.ipynb)
-[![Workshop 2 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/workshop_2_create_ai/Workshop_2_Advanced_GenAI.ipynb)
+[![Workshop 1 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/01_genai_fundamentals/Workshop_1_GenAI_Fundamentals.ipynb)
+[![Workshop 2 - Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskarjha-com/genai-workshops/blob/main/02_building_with_genai/Workshop_2_Advanced_GenAI.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ---
@@ -15,10 +15,12 @@
 By completing this workshop series, you will be able to:
 
 - ✅ Explain how **LLMs, Transformers, and diffusion models** work
+- ✅ **Tokenize text** and understand how AI reads language
 - ✅ **Generate text and images** using open-source AI models
+- ✅ Apply **prompt engineering** techniques for better AI output
 - ✅ Build **RAG pipelines** with vector embeddings and semantic retrieval
+- ✅ Build **AI agents** with tool-calling (ReAct pattern)
 - ✅ Run **local LLMs** with Ollama (zero cloud dependency)
-- ✅ Build **autonomous AI agents** with tool-calling and memory
 - ✅ Detect and mitigate **bias in ML models** using AIF360
 - ✅ Implement **safety guardrails** on AI outputs
 
@@ -26,11 +28,11 @@ By completing this workshop series, you will be able to:
 
 ## 🗺️ Workshop Series
 
-| # | Workshop | Theme | Format | Time | Key Topics |
-|:-:|---------|-------|--------|:----:|------------|
-| 1 | **[See AI](./workshop_1_see_ai/)** | See the magic, understand the mechanism | Colab Notebook | ~90 min | GenAI landscape, Transformers, GPT-2 text generation |
-| 2 | **[Create AI](./workshop_2_create_ai/)** | From consuming AI to building with it | Colab Notebook | ~2 hrs | FLUX images, Ollama, RAG pipelines, agent architecture |
-| 3 | **[Agentic AI](./workshop_3_agentic_ai/)** | Build an autonomous healthcare AI agent | Python Scripts | ~2 hrs | Multimodal AI, RAG, function-calling agents, bias, safety |
+| # | Workshop | What You'll Build | Format | Time |
+|:-:|---------|-------------------|--------|:----:|
+| 1 | **[GenAI Fundamentals](./01_genai_fundamentals/)** | Tokenizer, text generator, prompt lab, local-vs-cloud comparison | Colab Notebook | ~90 min |
+| 2 | **[Building with GenAI](./02_building_with_genai/)** | Image generator, RAG pipeline, mini AI agent with tools | Colab Notebook | ~2 hrs |
+| 3 | **[Healthcare AI Agent](./03_healthcare_ai_agent/)** | Autonomous healthcare agent with vision, RAG, bias detection, safety | Python Scripts | ~2 hrs |
 
 ---
 
@@ -43,11 +45,11 @@ git clone https://github.com/bhaskarjha-com/genai-workshops.git
 cd genai-workshops
 
 # Workshop 1 or 2: Open notebook in Google Colab or Jupyter
-cd workshop_1_see_ai
+cd 01_genai_fundamentals
 # Open Workshop_1_GenAI_Fundamentals.ipynb in Colab
 
 # Workshop 3: Run Python scripts directly
-cd workshop_3_agentic_ai
+cd 03_healthcare_ai_agent
 pip install -r requirements.txt
 python 01_multimodal_medical_ai.py
 ```
@@ -59,17 +61,16 @@ python 01_multimodal_medical_ai.py
 ## 🏗️ Learning Path
 
 ```
-┌─────────────────────┐     ┌─────────────────────┐     ┌──────────────────────────┐
-│  Workshop 1          │     │  Workshop 2          │     │  Workshop 3               │
-│  👁️  SEE AI          │────▶│  🛠️  CREATE AI       │────▶│  🤖  AGENTIC AI           │
-│                     │     │                     │     │                          │
-│  • GenAI landscape  │     │  • Image generation │     │  • Multimodal vision     │
-│  • Transformers     │     │  • Local LLMs       │     │  • Healthcare RAG        │
-│  • GPT-2 hands-on   │     │  • RAG pipelines    │     │  • Autonomous agents  ⭐  │
-│  • Prompt basics    │     │  • Agent concepts   │     │  • Bias & fairness       │
-│                     │     │                     │     │  • Safety guardrails     │
-└─────────────────────┘     └─────────────────────┘     └──────────────────────────┘
-     Foundations                 Applications                Production-Grade
+┌────────────────────────┐    ┌────────────────────────┐    ┌──────────────────────────┐
+│  01  FUNDAMENTALS       │    │  02  BUILDING           │    │  03  HEALTHCARE AGENT     │
+│                        │    │                        │    │                          │
+│  • Transformers        │    │  • Image generation    │    │  • Multimodal vision     │
+│  • Tokenization  ★     │───▶│  • RAG pipelines  ★    │───▶│  • Autonomous agents  ⭐  │
+│  • Text generation     │    │  • Mini AI agent  ★    │    │  • Bias & fairness       │
+│  • Prompt engineering  │    │  • Local vs cloud      │    │  • Safety guardrails     │
+│  • Local vs cloud      │    │                        │    │                          │
+└────────────────────────┘    └────────────────────────┘    └──────────────────────────┘
+     Foundations                   Applications                 Production-Grade
 ```
 
 **Recommended order:** 1 → 2 → 3 (each builds on the previous).
@@ -114,9 +115,10 @@ genai-workshops/
 ├── README.md                    ← You are here
 ├── LICENSE                      (MIT)
 ├── CONTRIBUTING.md
+├── CHANGELOG.md
 ├── .gitignore
 │
-├── workshop_1_see_ai/
+├── 01_genai_fundamentals/
 │   ├── README.md                Student guide
 │   ├── requirements.txt
 │   ├── Workshop_1_GenAI_Fundamentals.ipynb
@@ -124,7 +126,7 @@ genai-workshops/
 │       ├── INSTRUCTOR_GUIDE.md
 │       └── RESOURCES.md
 │
-├── workshop_2_create_ai/
+├── 02_building_with_genai/
 │   ├── README.md                Student guide
 │   ├── requirements.txt
 │   ├── Workshop_2_Advanced_GenAI.ipynb
@@ -133,7 +135,7 @@ genai-workshops/
 │       ├── INSTRUCTOR_GUIDE.md
 │       └── RESOURCES.md
 │
-└── workshop_3_agentic_ai/
+└── 03_healthcare_ai_agent/
     ├── README.md                Student guide
     ├── requirements.txt
     ├── .env.example
